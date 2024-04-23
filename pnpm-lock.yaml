@@ -377,13 +377,13 @@ importers:
     dependencies:
       '@hono/prometheus':
         specifier: 1.0.0
-        version: 1.0.0(hono@4.0.5)(prom-client@15.1.0)
+        version: 1.0.0(hono@4.2.7)(prom-client@15.1.0)
       '@hono/sentry':
         specifier: 1.0.1
-        version: 1.0.1(hono@4.0.5)
+        version: 1.0.1(hono@4.2.7)
       '@hono/typebox-validator':
         specifier: 0.2.2
-        version: 0.2.2(@sinclair/typebox@0.32.5)(hono@4.0.5)
+        version: 0.2.2(@sinclair/typebox@0.32.5)(hono@4.2.7)
       '@sinclair/typebox':
         specifier: 0.32.5
         version: 0.32.5
@@ -418,8 +418,8 @@ importers:
         specifier: 3.0.12
         version: 3.0.12(react@18.2.0)(solid-js@1.7.8)(svelte@4.2.12)(vue@3.4.21)(zod@3.22.4)
       hono:
-        specifier: 4.0.5
-        version: 4.0.5
+        specifier: 4.2.7
+        version: 4.2.7
       openai:
         specifier: 4.28.4
         version: 4.28.4
@@ -6575,33 +6575,33 @@ packages:
       - supports-color
     dev: false
 
-  /@hono/prometheus@1.0.0(hono@4.0.5)(prom-client@15.1.0):
+  /@hono/prometheus@1.0.0(hono@4.2.7)(prom-client@15.1.0):
     resolution: {integrity: sha512-cB4TklEw3CVqOdgLYenl6g4TM1YwYimrE044azQmVLLq7arfJfnWupvzev42LM1+ntlhsAAwS0TfpjSdnQBggw==}
     peerDependencies:
       hono: ^3.12.0
       prom-client: ^15.0.0
     dependencies:
-      hono: 4.0.5
+      hono: 4.2.7
       prom-client: 15.1.0
     dev: false
 
-  /@hono/sentry@1.0.1(hono@4.0.5):
+  /@hono/sentry@1.0.1(hono@4.2.7):
     resolution: {integrity: sha512-4JgwdyasCQIoH3lhl4yLNxrP4/SElfK01ZV3JUaMvexVJnyAOPuXDhtJasl9Gssg7qDNt8ZIDDjqmVrOwS+AIw==}
     peerDependencies:
       hono: '>=3.*'
     dependencies:
-      hono: 4.0.5
+      hono: 4.2.7
       toucan-js: 3.3.1
     dev: false
 
-  /@hono/typebox-validator@0.2.2(@sinclair/typebox@0.32.5)(hono@4.0.5):
+  /@hono/typebox-validator@0.2.2(@sinclair/typebox@0.32.5)(hono@4.2.7):
     resolution: {integrity: sha512-6hLnF9Pe+nOWSvX5SIhobZ9Wt7vjTT3sjqDZ5lKALf+9J9XMtNzDyMSjpM5SQv8gg+fOPHu/ZSYxxmUhl65QOg==}
     peerDependencies:
       '@sinclair/typebox': ^0.31.15
       hono: '>=3.9.0'
     dependencies:
       '@sinclair/typebox': 0.32.5
-      hono: 4.0.5
+      hono: 4.2.7
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -15096,8 +15096,8 @@ packages:
     resolution: {integrity: sha512-KZFBHenkVuyyG4uaqRSXqWJr3HTxcaPguM7rU1BlH/mtbDlzaXNSXTa9AhV+fXEjrNemHu9vtLRIaM8/8OW0xA==}
     dev: true
 
-  /hono@4.0.5:
-    resolution: {integrity: sha512-6LEGL1Pf3+dLjVA0NJxAB/3FJ6S3W5qxd/XOG7Wl9YOrpMRZT9lt83R4Ojs8dO6GbAUSutI7zTyjStnSn9sbEg==}
+  /hono@4.2.7:
+    resolution: {integrity: sha512-k1xHi86tJnRIVvqhFMBDGFKJ8r5O+bEsT4P59ZK59r0F300Xd910/r237inVfuT/VmE86RQQffX4OYNda6dLXw==}
     engines: {node: '>=16.0.0'}
     dev: false
 
