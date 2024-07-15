@@ -34,7 +34,7 @@
     "@udecode/plate-horizontal-rule": "30.5.3",
     "@udecode/plate-link": "30.5.3",
     "@udecode/plate-list": "30.5.3",
-    "@udecode/plate-media": "30.5.3",
+    "@udecode/plate-media": "36.0.10",
     "@udecode/plate-paragraph": "30.5.3",
     "escape-html": "1.0.3",
     "google-auth-library": "8.9.0",
